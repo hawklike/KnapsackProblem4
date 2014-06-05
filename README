@@ -1,26 +1,31 @@
 Seznámení se se zvolenou pokročilou iterativní metodou na problému batohu
+=========================================================================
+
 Motivace
+--------
 
 Tato úloha by měla posloužit k seznámení se s Vámi vybranou pokročilou iterativní technikou, na řešení jednoduchého problému (problém batohu). V poslední úloze (jejíž hodnocení bude součástí hodnocení zkoušky) budete řešit složitější problém touto pokročilou technikou, tudíž „osahání si“ těchto algoritmů na jednodušší úloze bude pro Vás přínosem. Krok od 5. úlohy k 6. bude pak malý: pouze upravíte konfiguraci a optimalizační kritérium pro jiný typ problému. Seznámíte se s reakcí algoritmu na manipulaci s parametry.
 
 Algoritmy k výběru
+------------------
 
-    Simulované ochlazování
-    Genetické algoritmy
-    Tabu search
+- Simulované ochlazování
+- Genetické algoritmy
+- Tabu search
 
 Co tedy máte udělat
+-------------------
 
-    Zvolte si heuristiku, kterou budete řešit problém vážené splnitelnosti booleovské formule (simulované ochlazování, simulovaná evoluce, tabu prohledávání)
-    Tuto heuristiku použijte pro řešení problému batohu. Můžete použít dostupné instance problému (zde), anebo si vygenerujte své instance pomocí generátoru. Používejte instance s větším počtem věcí (>30).
-    Hlavním cílem domácí práce je seznámit se s danou heuristikou, zejména se způsobem, jakým se nastavují její parametry (rozvrh ochlazování, selekční tlak, tabu lhůta…) a modifikace (zjištění počáteční teploty, mechanismus slekce, tabu atributy…). Není-li Vám cokoli jasné, prosíme ptejte se na cvičeních.
-    Problém batohu není příliš obtížný, většinou budete mít k dispozici globální maxima (exaktní řešení) z předchozích prací, například z dynamického programování. Závěrečná úloha je co do nastavení a požadovaného výkonu heuristiky podstatně náročnější a může vyžadovat zcela jiné nastavení parametrů.
+Zvolte si heuristiku, kterou budete řešit problém vážené splnitelnosti booleovské formule (simulované ochlazování, simulovaná evoluce, tabu prohledávání).
+Tuto heuristiku použijte pro řešení problému batohu. Můžete použít dostupné instance problému (zde), anebo si vygenerujte své instance pomocí generátoru. Používejte instance s větším počtem věcí (>30).
+Hlavním cílem domácí práce je seznámit se s danou heuristikou, zejména se způsobem, jakým se nastavují její parametry (rozvrh ochlazování, selekční tlak, tabu lhůta…) a modifikace (zjištění počáteční teploty, mechanismus slekce, tabu atributy…). Není-li Vám cokoli jasné, prosíme ptejte se na cvičeních.
+Problém batohu není příliš obtížný, většinou budete mít k dispozici globální maxima (exaktní řešení) z předchozích prací, například z dynamického programování. Závěrečná úloha je co do nastavení a požadovaného výkonu heuristiky podstatně náročnější a může vyžadovat zcela jiné nastavení parametrů.
 
 Zpráva by měla obsahovat
+------------------------
 
-    Stručný popis zvoleného algoritmu
-    Zhodnocení Vašich experimentů. Zkoušejte sledovat vývoj řešení (populace u GA) v průběhu běhu algoritmu. Graf potěší…
-    Experimentujte s různými nastaveními parametrů
-    Výsledek měření = čas výpočtu a rel. chyba. Pokud nejste schopni vypočítat rel. chybu, stačí uvést vývoj výsledné ceny (počáteční → koncová)
-    Pokuste se vyvodit nějaké závěry
-
+Stručný popis zvoleného algoritmu.
+Zhodnocení Vašich experimentů. Zkoušejte sledovat vývoj řešení (populace u GA) v průběhu běhu algoritmu. Graf potěší...
+Experimentujte s různými nastaveními parametrů.
+Výsledek měření = čas výpočtu a rel. chyba. Pokud nejste schopni vypočítat rel. chybu, stačí uvést vývoj výsledné ceny (počáteční → koncová).
+Pokuste se vyvodit nějaké závěry.
